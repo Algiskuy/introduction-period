@@ -1,0 +1,37 @@
+* {
+  margin: 5px;
+  padding: 0px;
+}
+body {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+}
+.empat {
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 20px;
+  width: max-content;
+}
+.lima {
+  border: 1px solid;
+  width: max-content;
+  font-size: 20px;
+  padding: 5px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

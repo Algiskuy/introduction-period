@@ -1,0 +1,476 @@
+* {
+  margin: 0px 0px;
+  padding: 0px;
+  background-color: rgba(173, 176, 180, 0.247);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: rgba(128, 128, 128, 0.425);
+}
+div.nav-left {
+  display: flex;
+  box-sizing: content-box;
+}
+.nav-logo img {
+  width: 100%;
+  margin: 0px;
+  height: 100%;
+  box-sizing: border-box;
+}
+input {
+  width: 350px;
+  height: 40px;
+  padding: 0px 10px 0px 10px;
+  border-radius: 8px;
+  margin-top: 5px;
+  background-color: white;
+}
+ul {
+  width: 100%;
+  height: max-content;
+  border-radius: 8px;
+  list-style: none;
+  display: flex;
+  margin-bottom: 10px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul li.kiri {
+  text-align: center;
+  line-height: 40px;
+  margin-right: 30px;
+}
+ul li.kanan {
+  color: rgb(34, 10, 245);
+  border: 2px solid;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+main {
+  margin: 15px 5px 0px 5px;
+  height: auto;
+  display: flex;
+  box-sizing: border-box;
+}
+div.head-left {
+  width: 30%;
+  height: 950px;
+  margin: 0px 0px 0px 0px;
+}
+
+div.head-left-satu {
+  border-radius: 8px;
+  width: 100%;
+  height: 50%;
+  margin: 0px 0px 30px 0px;
+  background-color: white;
+
+  padding: 10px 5px 10px 5px;
+  box-sizing: border-box;
+}
+.box-left1 {
+  height: 100%;
+  overflow: auto;
+}
+.box-pilihan {
+  display: flex;
+  align-items: center;
+  margin: 11px 5px 10px 5px;
+}
+.isi-box1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 0px 20px 0px 0px;
+  background-image: url(./foto/41.png);
+  background-size: cover;
+}
+.isi-box2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 0px 20px 0px 0px;
+  background-image: url(./foto/42.jpeg);
+  background-size: cover;
+}
+.isi-box3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 0px 20px 0px 0px;
+  background-image: url(./foto/43.jpeg);
+  background-size: cover;
+}
+.isi-box4 {
+  width: 50px;
+  height: 50px;
+
+  margin: 0px 20px 0px 0px;
+  background-image: url(./foto/44.jpeg);
+  background-size: cover;
+}
+.isi-box5 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 0px 20px 0px 0px;
+  background-image: url(./foto/45.png);
+  background-size: cover;
+  background-position: center;
+}
+.isi-box6 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 0px 20px 0px 0px;
+  background-image: url(./foto/46.png);
+  background-size: cover;
+  background-position: center;
+}
+.isi-box7 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 0px 20px 0px 0px;
+  background-image: url(./foto/47.png);
+  background-size: cover;
+}
+.isi-box8 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 0px 20px 0px 0px;
+  background-image: url(./foto/48.png);
+  background-size: cover;
+}
+.isi-box9 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 0px 20px 0px 0px;
+  background-image: url(./foto/49.jpeg);
+  background-size: cover;
+}
+.grup-pondok {
+  text-align: center;
+  font-size: 20px;
+}
+div.head-left-dua {
+  width: 100%;
+  height: 60px;
+  margin: 0px 0px 30px 0px;
+  display: flex;
+  text-align: center;
+  line-height: 57px;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+.main5 {
+  width: 100%;
+  height: 57px;
+  display: flex;
+  text-align: center;
+  line-height: 57px;
+  font-size: 25px;
+
+  margin: 0px;
+}
+.grup1 {
+  border-radius: 100%;
+  width: 60px;
+  height: 100%;
+  margin: 0px 10px 0px 5px;
+  background-color: white;
+  background-image: url(./foto/50.jpeg);
+  background-size: cover;
+}
+.grup2 {
+  border-radius: 100%;
+  width: 60px;
+  height: 100%;
+  margin: 0px 10px 0px 5px;
+  background-color: white;
+  background-image: url(./foto/51.png);
+  background-size: cover;
+}
+.grup3 {
+  border-radius: 100%;
+  width: 60px;
+  height: 100%;
+  margin: 0px 10px 0px 5px;
+  background-color: white;
+  background-image: url(./foto/53.jpeg);
+  background-size: cover;
+}
+.grup4 {
+  border-radius: 100%;
+  width: 60px;
+  height: 100%;
+  margin: 0px 10px 0px 5px;
+  background-color: white;
+  background-image: url(./foto/55.png);
+  background-size: cover;
+}
+.grup5 {
+  border-radius: 100%;
+  width: 60px;
+  height: 100%;
+  margin: 0px 10px 0px 5px;
+  background-color: white;
+  background-image: url(./foto/54.jpeg);
+  background-size: cover;
+}
+.grup {
+  border-radius: 100%;
+  width: 60px;
+  height: 100%;
+  margin: 0px 10px 0px 5px;
+  background-color: white;
+  background-image: url();
+  background-size: cover;
+}
+
+div.head-center {
+  border-radius: 10px 10px 0px 0px;
+  width: 95%;
+  height: 100%;
+  margin: 0px 10px;
+}
+.menu {
+  font-size: 20px;
+  margin: 0px 20px 0px 0px;
+}
+div.head-right {
+  border-radius: 8px;
+  width: 25%;
+  height: 1090px;
+  margin-right: 10px;
+}
+div.right-satu {
+  border-radius: 10px;
+  width: 100%;
+  height: 520px;
+  padding: 10px 5px 10px 5px;
+  margin: 0px 0px 45px 0px;
+  background-color: white;
+}
+.box-right1 {
+  height: 50%;
+  overflow: auto;
+
+  margin: 0px 0px 5px 0px;
+}
+.berita-terkini {
+  padding: 5px;
+}
+.berita {
+  display: flex;
+  margin-top: 10px;
+}
+.box1 {
+  width: 70px;
+  height: 50px;
+  background-color: aqua;
+  background-image: url(./foto/30.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.box2 {
+  width: 70px;
+  height: 50px;
+  background-color: aqua;
+  background-image: url(./foto/32.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.box3 {
+  width: 70px;
+  height: 50px;
+  background-color: aqua;
+  background-image: url(./foto/33.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.box4 {
+  width: 70px;
+  height: 50px;
+  background-color: aqua;
+  background-image: url(./foto/34.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.box5 {
+  width: 70px;
+  height: 50px;
+  background-color: aqua;
+  background-image: url(./foto/35.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.box6 {
+  width: 70px;
+  height: 50px;
+  background-color: aqua;
+  background-image: url(./foto/36.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.box7 {
+  width: 70px;
+  height: 50px;
+  background-color: aqua;
+  background-image: url(./foto/37.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.box8 {
+  width: 70px;
+  height: 50px;
+  background-color: aqua;
+  background-image: url(./foto/38.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.box9 {
+  width: 70px;
+  height: 50px;
+  background-color: aqua;
+  background-image: url(./foto/39.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.box10 {
+  width: 70px;
+  height: 50px;
+  background-color: aqua;
+  background-image: url(./foto/40.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+div.img-1 {
+  background-color: gray;
+
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  height: 367px;
+  margin: 10px 0px 0px 0px;
+
+  background-size: cover;
+  box-sizing: border-box;
+}
+.img1 {
+  width: 100%;
+}
+
+div.content-satu {
+  border-radius: 0px 0px 10px 10px;
+  padding: 20px;
+  margin: 0px;
+
+  background-color: white;
+}
+div.profile {
+  border-radius: 8px;
+
+  padding: 10px;
+  box-sizing: border-box;
+
+  display: flex;
+  background-color: white;
+}
+div.profil-img {
+  background-image: url(./foto/Algis.jpeg);
+  background-position: center;
+  background-size: cover;
+
+  border-radius: 100%;
+  width: 77px;
+  height: 77px;
+  margin-top: 0px;
+  background-color: white;
+}
+.judul-satu {
+  background-color: white;
+}
+.like {
+  width: 30px;
+  height: 30px;
+}
+.coment-satu {
+  display: flex;
+
+  background-color: white;
+}
+
+.coment-pdua {
+  margin-right: 10px;
+
+  background-color: white;
+}
+.coment-pdua a {
+  transition: 0.5s;
+  color: black;
+  background-color: transparent;
+}
+.coment-pdua a:hover {
+  color: blue;
+  transform: translateY(-5px);
+  display: block;
+}
+div.name {
+  background-color: white;
+}
+div.name h3 {
+  background-color: white;
+}
+div.name p {
+  background-color: white;
+}
+div.img-2 {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  height: 400px;
+  margin: 20px 0px 0px 0px;
+
+  background-position: center;
+  background-size: cover;
+}
+.img2 {
+  height: 100%;
+  width: 100%;
+}
+div.content-dua {
+  border-radius: 0px 0px 10px 10px;
+  padding: 20px;
+
+  background-color: white;
+}
+.coment-satu {
+  display: flex;
+}
+.coment-psatu {
+  margin-right: 10px;
+}
+div.img-3 {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  height: 425px;
+  margin: 10px 0px 0px 0px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.img3 {
+  width: 100%;
+  height: 100%;
+}
